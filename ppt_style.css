@@ -1,0 +1,54 @@
+/*
+ * ppt_style.css
+ * Copyright (C) 2017 caihao
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+
+body
+{
+    font-family:sans-serif, 'Lato', 'Avenir Next', 'Avenir', 'Trebuchet MS', 'Segoe UI',  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "STKaiti";
+    background-color:black;
+}
+div.slide 
+{
+    width:1024px;
+    height:768px;
+    border:solid white 10px;
+    #background: url(http://ofajs57zb.bkt.clouddn.com/17-4-30/23732759-file_1493547379060_10eca.png) ;
+    #background-size:1024px 768px;
+    font-size:85%;
+    border-radius:10px;
+    background-color:white;
+}
+.highlight
+{
+    background-color:yellow;
+    padding:3px;
+}
+.emphasize
+{
+    background-color:aliceblue;
+#color:white;
+    border:3px solid darkcyan;
+    border-radius:3px;
+    box-shadow: 5px 5px 3px #888888;
+}
+.image
+{
+    text-align:center;
+    background-color:aliceblue;
+    margin:0.5%;
+    padding:0.5%;
+    box-shadow: 5px 5px 3px #888888;
+}
+.image img
+{
+    width:100%;
+}
+blockquote
+{
+    background-color:beige;
+}
+
